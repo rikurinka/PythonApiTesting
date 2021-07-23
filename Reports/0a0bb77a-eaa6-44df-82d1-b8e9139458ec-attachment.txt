@@ -1,0 +1,2 @@
+{"status":"true","data":{"id":334952,"first_name":"Testing","middle_name":"sK","last_name":"World","date_of_birth":"24/12/96"}}
+[334952]

@@ -1,0 +1,5 @@
+{'name': 'testing updated', 'job': 'leader team'}
+{"name":"testing updated","job":"leader team","id":"648","createdAt":"2021-07-23T11:27:10.785Z"}
+{'Date': 'Fri, 23 Jul 2021 11:27:10 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '96', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"60-y1M2+AxId/1xN4StVdpsasP/eZE"', 'Via': '1.1 vegur', 'CF-Cache-Status': 'DYNAMIC', 'Expect-CT': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=%2BViDsTpKt0SbQFcRVgGVR%2FsUMSiZ85GvqNLWmpm%2BxU8PoYva4r8DfYMaeQv7dnCp2Gfjo8kmwmGV7S2bEmWDKrVwCOxHOXmMb0HPr43E7nKDcTC%2Brdm7jZXtjms%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"report_to":"cf-nel","max_age":604800}', 'Server': 'cloudflare', 'CF-RAY': '67348edacf504aff-HYD', 'alt-svc': 'h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400'}
+96
+648

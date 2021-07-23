@@ -1,0 +1,5 @@
+{"id":335090,"first_name":"TestingSK","middle_name":"M","last_name":"World","date_of_birth":"26/2/2021"}
+335090
+{"status":"true","msg":"Add  data success"}
+{"status":"true","msg":"Add  data success"}
+{"status":"true","data":{"first_name":"TestingSK","middle_name":"M","last_name":"World","date_of_birth":"26/2/2021","TechnicalDetails":[],"Address":[{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"335090"},{"Permanent_Address":{"House_Number":null,"City":null,"State":null,"Country":null,"PhoneNumber":null},"Current_Address":null,"stId":"335090"}]}}

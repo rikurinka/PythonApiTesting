@@ -1,0 +1,178 @@
+Allure is a open  source framework designed to create test execution
+
+Two steps
+step1: small library called adapter attached to testing framework
+saves information abot executed test to xml files
+json format
+
+step2: report generation
+
+pip install allure-pytest (JSON)
+
+json to html report
+
+install java 8+
+install node.js
+convert report to html format
+install allure command line tool
+
+npm install -g allure-commandline --save-dev
+
+#Git - source course management software
+
+1.Track changes in File
+2.Manage source
+3.version and branching(new not complete access of code)
+4.compare code
+5.merge branch
+6.compare branches etc
+
+#Gitub - webbased repository centralised
+
+A
+whatever code in local repo (commit) - transfer to remote repo(push code)
+
+B
+new - use code - local repo - clone the code for first time
+done changes - put code in local repo(commit) - push the code to remote repo
+
+A-pull - changes - use it
+
+GitHub - remote repo
+
+Step:
+Login to Github with account
+create new repository and rename it as any name (here for eg: Automation001)
+
+Open google.com and download git bash
+install the software
+after installation - open gitbash
+type git --version
+
+Global commands
+
+Set UserName
+Set Password
+
+open gitbash and type below commands
+
+git config --global user.name "rikurinka"
+
+to check username is configured correctly
+git config user.name
+
+git config --global user.email "rikurinkag@yahoo.in"
+
+to check username email
+git config user.email
+to check all list
+git config --list
+
+By default gitbash will work in c drive to change the drive
+
+cd D:
+
+to create a new folder
+
+mkdir <foldername> [for eg: mkdir CodeRepository]
+
+to navigate into created folder
+
+cd CodeRepository
+
+to check are you in correct folder path type below command
+pwd
+
+to intialize type following command
+
+git init
+
+Goto Local folder coderepository folder - copy and paste any file
+
+File will be in 3 states
+
+untracked - git is not able to get the file
+
+staged - share the command to team member - intermediate state
+ready to track or untracked
+
+tracked - tracked by git and share file to team member and push
+
+pwd
+type below command, it will show the newly added files in the folder
+git status
+
+type bwlo commamnd to track one file
+git add <filename> for eg: git add Demo.py
+
+type below command to track all file
+git add .
+
+to check status
+git status
+
+to move to tracked stage below command need to be added
+git commit -m "This is automation started"
+
+to check status
+git status
+
+if we move to untrack stage we need type below command
+git reset HEAD <filename>
+for eg:
+git reset HEAD taskOne.py
+
+to check status
+git status
+
+to commit:
+git commit -m "This is a new <file>"
+
+to check log:
+git log
+
+to check the changes done in the particular file type below command:
+git diff <filename>
+for eg:
+git diff taskOne.py
+
+it will what was earlier and what is latest change
+
+to discard the changes type below command
+git checkout -- <filename>
+git checkout -- taskOne.py
+git status (changes will be reverted in that file)
+
+to check whether code is in remote repository
+git remote -v
+
+to make link with remoe repo, goto github and copy the link where new repo is created
+for eg:
+https://github.com/rikurinka/Automation001.git
+
+to add into remote repo type below command
+git remote add origin "https://github.com/rikurinka/Automation001.git"
+
+to check in remote
+git remote -v
+
+to push the local folder repo code to remote repo type below command
+git push origin master
+
+to clone the repository as user B
+
+open git bash
+create a repository
+for eg:
+mkdir Repository2
+cd Repository2
+pwd
+
+Goto github and click name of the repo and click code
+copy clone link
+goto gitbash
+
+git clone "https://github.com/rikurinka/Automation001.git"
+
+after completing type below command to check
+ls
