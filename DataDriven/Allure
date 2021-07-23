@@ -176,3 +176,67 @@ git clone "https://github.com/rikurinka/Automation001.git"
 
 after completing type below command to check
 ls
+
+C:\Users\DELL\PycharmProjects\PythonBasics\APIAutomation
+
+
+https://github.com/rikurinka/PythonApiTesting.git
+
+cd
+pwd
+git add .
+git status
+git commit -m "This is new file committed"
+git remote -v
+git remote add origin "https://github.com/rikurinka/PythonApiTesting.git"
+git remote -v
+git push origin master
+
+Jenkins:
+Download jenkins.war file
+after download goto command prompt and go to download location
+type:
+-java -jar "jenkins.war" --httpPort=8086
+
+install and type the password which was saved in the location folder
+
+install suggested plugins
+
+http://localhost:8086/
+
+Global tool configuration - JDK - Add JDK
+Name - JAVA_HOME
+Uncheck java 9.1 version
+Type - C:\Program Files\Java\jdk1.8.0_131
+click apply and close
+
+Global tool configuration - Git - Add path
+
+C:/Program Files/Git/bin/git.exe
+NOTE: The slash should be forward
+
+C:\Users\DELL\AppData\Local\Programs\Python\Python39\Scripts
+
+chromedriver , gecko in script folder
+
+Allure plugin
+
+download allurecommandline plugin from git link and unzip the plugin
+goto jenkins - global tool configuration - allure plugin - uncheck the checkbox
+copy and paste -
+D:\API\allure-cli\bin
+click apply and save button
+
+Click jenkins goto dashboard
+click new item - new name for eg: SampleJob
+click free style project
+click ok button
+
+Click jenkins and create new item - new name for eg: PythonSeleniumAutomation
+click free style project
+click ok button
+add username, password, gitpath
+
+
+
+
